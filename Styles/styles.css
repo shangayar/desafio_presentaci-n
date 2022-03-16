@@ -1,11 +1,13 @@
 *{
     background-color:#fff9f3;
+    margin:0;
+    padding:0
 }
-nav{
+.navegador{
     display:flex;
     justify-content:space-between;   
 }
-nav img{
+.navegador img{
     width:20%;
 }
 .nav-menu ul{
@@ -75,11 +77,14 @@ main{
 }
 section{
     display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content:flex-start;
 }
 article{
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     margin:2rem;
 }
@@ -170,3 +175,4 @@ button{
     font-family: 'Cairo', sans-serif; 
     background-color: #5d5340;
 }
+
