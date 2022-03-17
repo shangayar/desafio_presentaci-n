@@ -91,7 +91,8 @@
         flex-direction:column;
         justify-content: center;
         align-content: center;
-        margin-right: 145px;
+        margin-right: 0;
+        margin-left:0;
      
     }
     .avatar-text h1{
