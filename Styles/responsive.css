@@ -75,18 +75,11 @@
         width:50%;
         height:auto;
         padding-left: 7rem;
-    }         
+    } 
     .main-present{
         display:flex;
         flex-direction: column;
-        align-self: center;
-        justify-content:space-around;
-    }
-    .avatar{
-        display:flex;
-        align-items: center;
-        justify-content:center;
-    }
+    }   
     
     .avatar img{
         width:40%;
@@ -95,9 +88,55 @@
     }
     .avatar-text{
         display:flex;
-        justify-content:center;
-        align-items: center;
-        margin-right: 7rem;
+        flex-direction:column;
+        justify-content: center;
+        align-content: center;
+        margin-right: 145px;
+     
     }
-      
+    .avatar-text h1{
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 50px;       
+        color:#ab8742;  
+    }
+    .cubo img{
+        width:40%;
+        height:auto;
+    }
+   section{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    article{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items: center;
+        margin:2rem;
+    }
+    article h2{
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 35px;
+        color:#ab8742;
+        text-align: center;
+    
+    }
+    article img{
+        width:80%;
+        padding-left: 3rem;
+    }
+    article p {
+        font-family: 'Cairo', sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .main-techno-card-all{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+   
 }
